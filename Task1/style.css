@@ -9,7 +9,7 @@
 }
 
 .bus{
-    height: auto;
+    height: 300px;
     width: 100%;
     background-image: url('images/back.png');
     background-repeat: no-repeat;
@@ -43,7 +43,7 @@
 }
 
 .car{
-    height: auto;
+    height: 300px;
     width: 100%;
     background-image: url('images/back.png');
     background-repeat: no-repeat;
@@ -60,7 +60,7 @@
 }
 
 .flight{
-    height: auto;
+    height: 300px;
     width: 100%;
     background-image: url('images/back.png');
     background-repeat: no-repeat;
@@ -88,8 +88,9 @@
 }
 
 .maincontainer{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
 }
 
 .maintext{
