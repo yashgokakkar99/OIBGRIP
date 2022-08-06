@@ -9,8 +9,7 @@
 }
 
 .bus{
-    height: 25rem;
-    width: 100%;
+    box-sizing: border-box;
     background-image: url('images/back.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -43,8 +42,7 @@
 }
 
 .car{
-    height: 25rem;
-    width: 100%;
+    box-sizing: border-box;
     background-image: url('images/back.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -60,8 +58,7 @@
 }
 
 .flight{
-    height: 25rem;
-    width: 100%;
+    box-sizing: border-box;
     background-image: url('images/back.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
