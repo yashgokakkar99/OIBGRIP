@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>TEMPERATURE CONVERTER</h1>
+    <div class="maincontainer">
+        <div class="input">
+            <label for="inp">Degrees</label>
+            <input type="number" class="inp" id="inpt">
+        </div>
+        <div class="selection">
+            <label for="select">Type</label>
+            <select id="select">
+                <option>Fahrenheit</option>
+                <option>Celcius</option>
+            </select>
+        </div>
+        <div class="output">
+            <p>Output : <span id="otp"></span></p>
+        </div>
+        <div class="convert">
+            <button class="btn" id="conv" onclick="f1()">
+                Convert
+            </button>
+        </div>
+    </div>
+    <div class="footer">
+        <p>CREATED BY YASH GOKAKKAR | &copy; TEMPERATURE CONVERTER ALL RIGHTS RESERVED</p>
+    </div>
+</body>
+</html>
