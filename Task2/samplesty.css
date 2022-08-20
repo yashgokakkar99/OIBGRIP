@@ -1,0 +1,31 @@
+body{
+    background-color: yellow;
+}
+
+.home{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(200px,1fr));
+    grid-auto-rows: minmax(100px,auto);
+    grid-auto-columns: minmax(50px,auto);
+    grid-gap: 20px;
+}
+
+.intro, .social, .pic{
+    border: 2px solid red;
+}
+
+.pic{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.social{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+
