@@ -79,18 +79,22 @@ html{
 /* TABS BG COLOR*/
 .homecont{
     background-color: black;
+    height: 100vh;
 }
 
 .educont{
     background-color: black;
+    height: 100vh;
 }
 
 .procont{
     background-color: black;
+    height: 100vh;
 }
 
 .contactcont{
     background-color: black;
+    height: 100vh;
 }
 
 /*HOME TAB DESIGN LAYOUT USING CSS GRID*/
