@@ -1,0 +1,22 @@
+body{
+    background-color: yellow;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(400px,1fr));
+    grid-auto-columns: minmax(600px,auto);
+    grid-auto-rows: minmax(400px,auto);
+    grid-gap: 20px;
+}
+
+.school, .jrclg, .engg{
+    border: 2px solid red;
+}
+
+.maindiv{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,22 @@
+body{
+    background-color: yellow;
+}
+
+.maindiv{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(3,minmax(400px,1fr));
+    grid-auto-columns: minmax(600px,auto);
+    grid-auto-rows: minmax(150px,auto);
+    grid-gap: 20px;
+}
+
+.pro1, .pro2, .pro3, .pro4, .pro5, .pro6, .pro7, .pro8, .pro9{
+    border: 2px solid red;
+}
