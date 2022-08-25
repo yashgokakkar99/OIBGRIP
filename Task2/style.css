@@ -80,21 +80,25 @@ html{
 .homecont{
     background-color: black;
     height: 100vh;
+    width: 100vw;
 }
 
 .educont{
     background-color: black;
     height: 100vh;
+    width: 100vw;
 }
 
 .procont{
     background-color: black;
     height: 100vh;
+    width: 100vw;
 }
 
 .contactcont{
     background-color: black;
     height: 100vh;
+    width: 100vw;
 }
 
 /*HOME TAB DESIGN LAYOUT USING CSS GRID*/
